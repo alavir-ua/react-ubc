@@ -45,7 +45,7 @@ function Counter(props) {
   return (
     <div className="container">
       {tariff.created ?
-        (<div className="row justify-content-center mb-5">
+        (<div className="row justify-content-center mt-4">
             <div className="col-md-4">
               <h4>Создать месячный расчет</h4>
               <div className="form-group">
