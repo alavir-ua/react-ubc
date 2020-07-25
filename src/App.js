@@ -27,8 +27,6 @@ function App() {
     intercom: 0
   };
 
-  const owner = 'Oleksii Fedorenko <alavir.web.dev@gmail.com>';
-
   const [result, setResult] = useState(initResult);
   const [data, setData] = useState(initData);
 
@@ -74,7 +72,7 @@ function App() {
         </Switch>
         <footer>
           <div className="footer-copyright py-1">
-            &copy;{new Date().getFullYear()} Copyright: {owner}
+            &copy; Fedorenko A.G., 2017-{new Date().getFullYear()}
           </div>
         </footer>
       </div>
